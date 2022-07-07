@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url(../fonts/Roboto/Roboto-LightItalic.ttf) format('truetype');
+    src: url(../fonts/Roboto/Roboto-ThinItalic.ttf) format('truetype');
     font-weight: 100;
     font-style: italic;
 }
@@ -43,7 +43,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding: 0 10%;
+    padding: 0 15%;
 }
 
 nav, #logo {
@@ -66,9 +66,9 @@ nav li {
 
 section.hero {
     display: flex;
-    padding: 5% 10%;
+    padding: 90px 15%;
     justify-content: space-between;
-    height: 350px;
+    height: 420px;
 }
 
 /* remember to set heigh to auto on all imgs */
@@ -96,11 +96,11 @@ div.intro {
     font-weight: 100;
 }
 button {
-    width: 110px;
+    width: 120px;
     padding: 10px;
     border-radius: 10px;
     color: #E5E7EB;
-    font-weight: 600;
+    font-weight: normal;
     background-color: #3882F6;
     border: #3882F6;
 }
@@ -164,6 +164,8 @@ section.inspiringQuote {
     font-weight: lighter;
     font-style: italic;
     padding: 5% 210px;
+    display: flex;
+    justify-content: center;
 }
 
 blockquote {
@@ -174,21 +176,38 @@ blockquote {
     display: block;
     text-align: right;
     font-weight: bold;
+    font-style: normal;
 }
 
 section.actionCall {
-    padding: 5% 23%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 div.actionBox {
     background-color: #3882F6;
     color: #E5E7EB;
     border-radius: 10px;
-    padding: 15px 40px;
-    height: 100px;
+    padding: 15px 0;
+    height: 150px;
+    width: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    font-size: 18px;
+}
+
+
+
+#callToAction {
+    font-weight: bold;
+}
+
+#actionCallSubText {
+    font-weight: 100;
 }
 
 button.signUpCall {
