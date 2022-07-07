@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    background-color: #FFF4EC;
+    min-height: 100vh;
+    padding: 5% 0;
+}
+
+h1, h2, h3, h4 {
+    /* I chose to use em to set the padding relative to the font-size of the respective h tag */
+    padding: 1em;
+}
+
+h1 {
+    background-color: palevioletred;
+}
+
+h2 {
+    background-color: #EABA6B;
+}
+
+h3 {
+    background-color: rgb(228, 87, 46);
+}
+
+h4 {
+    background-color: hsl(213, 48%, 64%);
+}
