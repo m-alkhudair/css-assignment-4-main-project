@@ -1,2 +1,4 @@
 # css-assignment-4-main-project
- Brainnest CSS assignment main project week 2
+ Brainnest Week 2 assignment: main CSS Project.
+
+ You can find the website here: https://m-alkhudair.github.io/css-assignment-4-main-project/
