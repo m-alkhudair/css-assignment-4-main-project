@@ -77,6 +77,11 @@ div.intro, #imagePlaceHolder {
     width: 420px;
 }
 
+#imagePlaceHolder {
+    background-image: url(../images/commet.jpg);
+    background-size: cover;
+}
+
 div.intro {
     display: flex;
     flex-direction: column;

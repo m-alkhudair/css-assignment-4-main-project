@@ -15,6 +15,11 @@ a:hover, li:hover {
     color: #FFD9DA;
 }
 
+li a {
+    color: unset;
+    border: unset;
+}
+
 h1 {
     background-color: #EA638C;
     color: #FFD9DA;

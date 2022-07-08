@@ -2,9 +2,19 @@
     box-sizing: border-box;
 }
 
-div {
+a {
+    color: rgb(46, 118, 78);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+body {
     background-color: #FFF4EC;
-    min-height: 100vh;
+}
+
+div {
+    max-height: 100vh;
     padding: 5% 0;
 }
 
@@ -27,4 +37,9 @@ h3 {
 
 h4 {
     background-color: hsl(213, 48%, 64%);
+}
+
+a:hover {
+    background-color:rgb(46, 118, 78);
+    color: #FFF4EC;
 }
