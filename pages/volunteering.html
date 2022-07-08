@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" >
+    <title>Volunteering portal</title>
+</head>
+<body>
+    <header>
+        <span id="logo"><a id="logo" href="../index.html">Animal Center</a></span>
+        <nav>
+            <ul>
+                <li><a href="./center.html">Discover our centers</a></li>
+                <li><a href="./volunteering.html">Volunteering portal</a></li>
+                <li><a href="">Animal clinic</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="intro">
+                <h1>Volunteer and trainee portal</h1>
+                <p>We offer training and volunteering opportunities at the Animal Center. Join us and become a part of a huge team of animal rescuers!</p>
+                <div class="portalBtns">
+                    <button id="btn1" type="button">Sign up</button>
+                    <button id="btn2" type="button">Sign in</button>
+                </div>
+            </div>
+            <div id="imagePlaceHolder">
+                <img src="../images/volunteer.jpg" alt="A cat looking up at the ceiling.">
+                <p id="ambassadorOverlay">Say hi to luna the dog.</p>
+            </div>
+        </section>
+        <section>
+            <form>
+                <h2>Volunteer sign up form</h2>
+                <div class="formName">
+                    <div>
+                        <label for="fname">First name</label>
+                        <input id="fname" type="text">        
+                    </div>
+                    <div>
+                        <label for="lname">Last name</label>
+                        <input id="lname" type="text">
+                    </div>
+                </div>
+                <div class="formContacts">
+                    <div>
+                        <label for="email">Email</label>
+                        <input id="email" type="email">        
+                    </div>
+                    <div>
+                        <label for="phone">Phone</label>
+                        <input id="phone" type="tel">
+                    </div>
+                </div>
+                <label for="center">Choose a center</label>
+                <select id="center">
+                    <option>Red Sea marine life rescue center</option>
+                    <option>Endangerd animals rescue and rehabilitation center</option>
+                    <option>Emergency veterinary medical center</option>
+                    <option>Lost pet rescue center</option>
+                </select>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <footer>
+            <p>Copyright &copy;</p>
+        </footer>    
+</body>
+</html>

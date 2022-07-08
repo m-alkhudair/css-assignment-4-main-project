@@ -1,0 +1,34 @@
+section#centerIntro p {
+    display: flex;
+    flex-direction: column;
+}
+
+#imagePlaceHolder.centerItem {
+    height: 300px;
+    width: auto;
+}
+
+div.centerContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+section.marine, section.wild, section.vet, section.pet {
+    padding: 5%;
+    height: auto;
+    /* background-color: #E5E7EB; */
+}
+
+section.wild, section.pet {
+    background-color: #E5E7EB;
+}
+
+.centerItem {
+    flex: 0 1 500px;
+}
+
+div.centerItemContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

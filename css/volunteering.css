@@ -1,0 +1,19 @@
+#btn1 {
+    margin-right: 5%;
+}
+
+#btn2 {
+    background-color: #E5E7EB;
+    color: #3882F6;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 20%;
+}
+
+.formName, .formContacts {
+    display: flex;
+    justify-content: space-between;
+}
