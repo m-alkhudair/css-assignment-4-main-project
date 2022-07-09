@@ -12,9 +12,9 @@
         <span id="logo"><a id="logo" href="../index.html">Animal Center</a></span>
         <nav>
             <ul>
+                <li><a href="../index.html">Homepage</a></li>
                 <li><a href="./center.html">Discover our centers</a></li>
                 <li><a href="./volunteering.html">Volunteering portal</a></li>
-                <li><a href="">Animal clinic</a></li>
             </ul>
         </nav>
     </header>
@@ -39,31 +39,33 @@
                 <div class="formName">
                     <div>
                         <label for="fname">First name</label>
-                        <input id="fname" type="text">        
+                        <input id="fname" type="text" placeholder="Your first name">        
                     </div>
                     <div>
                         <label for="lname">Last name</label>
-                        <input id="lname" type="text">
+                        <input id="lname" type="text" placeholder="Your last name">
                     </div>
                 </div>
                 <div class="formContacts">
                     <div>
                         <label for="email">Email</label>
-                        <input id="email" type="email">        
+                        <input id="email" type="email" placeholder="Your email">        
                     </div>
                     <div>
                         <label for="phone">Phone</label>
-                        <input id="phone" type="tel">
+                        <input id="phone" type="tel" placeholder="Your phone numbers">
                     </div>
                 </div>
-                <label for="center">Choose a center</label>
-                <select id="center">
-                    <option>Red Sea marine life rescue center</option>
-                    <option>Endangerd animals rescue and rehabilitation center</option>
-                    <option>Emergency veterinary medical center</option>
-                    <option>Lost pet rescue center</option>
-                </select>
-                <button type="submit">Submit</button>
+                <div class="choose">
+                    <label for="centerChoose">Choose a center</label>
+                    <select id="centerChoose">
+                        <option>Red Sea marine life rescue center</option>
+                        <option>Endangerd animals rescue and rehabilitation center</option>
+                        <option>Emergency veterinary medical center</option>
+                        <option>Lost pet rescue center</option>
+                    </select>
+                    <button type="submit">Submit</button>
+                </div>
             </form>
         </section>
         <footer>

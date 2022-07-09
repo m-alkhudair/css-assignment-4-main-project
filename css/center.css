@@ -32,3 +32,7 @@ div.centerItemContainer {
     flex-direction: column;
     justify-content: space-between;
 }
+
+.centerSubItem p, .centerSubItem h3 {
+    color:#939496;;
+}
