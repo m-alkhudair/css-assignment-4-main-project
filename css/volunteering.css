@@ -20,30 +20,18 @@ form {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    /* width: 100%; */
     gap: 10px;
-    /* border: 1px solid red; */
-
 }
 
 .formName div, .formContacts div {
     display: flex;
     flex-direction: column;
     flex: 0 1 50%;
-    /* border: 1px solid red; */
 }
 
 .choose {
     flex-direction: column;
 }
-/* .choose label, .choose select {
-    display: flex;
-    border: 1px solid red;
-    
-
-} */
-
-
 
 .formName div label, .formName div input, .formContacts div input, .formContacts div label {
     margin-top: 10px;

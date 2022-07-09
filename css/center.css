@@ -16,7 +16,6 @@ div.centerContainer {
 section.marine, section.wild, section.vet, section.pet {
     padding: 5%;
     height: auto;
-    /* background-color: #E5E7EB; */
 }
 
 section.wild, section.pet {
