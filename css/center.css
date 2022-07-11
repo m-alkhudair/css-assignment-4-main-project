@@ -35,3 +35,40 @@ div.centerItemContainer {
 .centerSubItem p, .centerSubItem h3 {
     color:#939496;;
 }
+
+@media only screen and (max-width: 1222px) {
+
+    #imagePlaceHolder.centerItem {
+        display: unset;
+    }
+
+    div.centerContainer {
+        gap: 15px;
+    }
+
+    .centerSubItem p {
+        overflow: scroll;
+    }
+
+}
+
+@media only screen and (max-width: 943px) {
+
+}
+
+@media only screen and (max-width: 770px) {
+
+    div.centerContainer {
+        flex-direction: column;
+    }
+
+    div.centerContainer.reverse {
+        flex-direction: column-reverse;
+    }
+
+    div.centerItemContainer {
+        justify-content: space-around;
+    }
+
+}
+

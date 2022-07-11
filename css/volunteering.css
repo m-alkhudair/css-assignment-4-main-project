@@ -46,3 +46,26 @@ input, select {
 select {
     margin-bottom: 10px;
 }
+
+@media only screen and (max-width: 1222px) {
+  
+}
+
+@media only screen and (max-width: 943px) {
+
+}
+
+@media only screen and (max-width: 770px) {
+
+}
+
+@media only screen and (max-width: 730px) {
+    div.portalBtns {
+        display: flex;
+    }
+
+    form {
+        width: 100%;
+        margin: 0;
+    }
+}

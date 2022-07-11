@@ -255,3 +255,129 @@ footer {
     color: #E5E7EB;
     font-weight: lighter;
 }
+
+.fa-bars {
+    display: none;
+    color: #E5E7EB;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 1222px) {
+    section.hero {
+        padding: 5% 10%;
+    }
+
+    div.intro {
+        margin-right: 5%;
+    }
+    
+    div#imagePlaceHolder {
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 943px) {
+    header {
+        padding: 0 5%;
+    }
+
+    section.hero {
+        justify-content: center;
+        /* height: 320px; */
+        height: auto;
+        padding: 5%;
+    }
+
+    div#imagePlaceHolder {
+        margin-left: unset;
+        display: none;
+    }
+
+    div.intro {
+        margin-right: unset;
+        /* border: 1px solid red; */
+    }
+
+    .intro h1, .intro p {
+        margin: 10px 0;
+    }
+
+    section.inspiringQuote {
+        padding: 50px;
+        font-size: 20px;
+    }
+
+    div.actionBox {
+        width: 100%;
+        border-radius: 0;
+    }
+
+}
+
+@media only screen and (max-width: 770px) {
+    .fa-bars {
+        display: unset;
+    }
+
+    nav {
+        display: none;
+    }
+
+    section.extraInfo {
+        height: auto;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    div.info {
+        flex-direction: column;
+        height: auto;
+        /* align-items: center; */
+    }
+
+    .info .item {
+       flex-direction: row; 
+       background: #E5E7EB;
+       border-radius: 10px;
+       align-items: flex-start;
+    }
+
+    .info .item p {
+        text-align: left;
+        width: 50%;
+        margin: 20px 10px;
+        /* display: none; */
+    }
+
+    /* .infoImage:hover + p, .item p:hover  {
+        display: unset;
+    } */
+
+    section.inspiringQuote {
+        padding: 50px;
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 20px;
+        width: 170px;
+        padding: 10px;
+    }
+
+    .actionBox div {
+        width: 50%;
+        /* font-size: 1.25rem; */
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    section.extraInfo {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    div.actionBox {
+        height: 80%;
+        padding: 10px 20px;
+    }
+}
